@@ -148,7 +148,7 @@ class Record
                         break;
                 }
             }
-            $fields[$key] = ['type' => $ft, 'value' => $fv];
+            $fields[$key] = ['value' => $fv];
         }
 		if(count($fields)){
         	$a['fields'] = $fields;
